@@ -14,7 +14,7 @@ HAI 1.2
   BOTH SAEM PONE AN PTWO
   O RLY?
     YA RLY
-      VISIBLE "ITZ A TIE!"
+      VISIBLE "ITS A TIE!"
     NO WAI
 
       BOTH SAEM PONE AN "ROCK"
@@ -23,9 +23,9 @@ HAI 1.2
           BOTH SAEM PTWO AN "SCISSORS"
           O RLY?
             YA RLY
-              VISIBLE "PLAYER 1 WINZ (ROCK BEATZ SCISSORS)!"
+              VISIBLE "PLAYER 1 WINS (ROCK BEATS SCISSORS)!"
             NO WAI
-              VISIBLE "PLAYER 2 WINZ!"
+              VISIBLE "PLAYER 2 WINS!"
           OIC
 
         NO WAI
@@ -35,9 +35,9 @@ HAI 1.2
               BOTH SAEM PTWO AN "ROCK"
               O RLY?
                 YA RLY
-                  VISIBLE "PLAYER 1 WINZ (PAPER BEATZ ROCK)!"
+                  VISIBLE "PLAYER 1 WINS (PAPER BEATS ROCK)!"
                 NO WAI
-                  VISIBLE "PLAYER 2 WINZ!"
+                  VISIBLE "PLAYER 2 WINS!"
               OIC
 
             NO WAI
@@ -47,12 +47,12 @@ HAI 1.2
                   BOTH SAEM PTWO AN "PAPER"
                   O RLY?
                     YA RLY
-                      VISIBLE "PLAYER 1 WINZ (SCISSORS BEATZ PAPER)!"
+                      VISIBLE "PLAYER 1 WINS (SCISSORS BEATS PAPER)!"
                     NO WAI
-                      VISIBLE "PLAYER 2 WINZ!"
+                      VISIBLE "PLAYER 2 WINS!"
                   OIC
                 NO WAI
-                  VISIBLE "BAD INPUTZ! USE ROCK/PAPER/SCISSORS."
+                  VISIBLE "BAD INPUTS! USE ROCK/PAPER/SCISSORS."
               OIC
           OIC
 
@@ -60,3 +60,4 @@ HAI 1.2
   OIC
 
 KTHXBYE
+
