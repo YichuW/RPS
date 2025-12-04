@@ -1,74 +1,61 @@
 HAI 1.2
   CAN HAS STDIO?
-  CAN HAS TIME?
+
+  I HAS A PONE
+  I HAS A PTWO
 
   VISIBLE "ROCK PAPER SCISSORS GAME!"
-  VISIBLE "PLAYER: TYPE ROCK, PAPER, OR SCISSORS"
-  GIMMEH P
+  VISIBLE "PLAYER 1: TYPE ROCK, PAPER, OR SCISSORS"
+  GIMMEH PONE
 
-  I HAS A T NOW
-  I HAS A RND ITZ MOD OF T AN 3
+  VISIBLE "PLAYER 2: TYPE ROCK, PAPER, OR SCISSORS"
+  GIMMEH PTWO
 
-  O RLY?
-    BOTH SAEM RND AN 0
-    YA RLY
-      I HAS A C ITZ "ROCK"
-    NO WAI
-      BOTH SAEM RND AN 1
-      YA RLY
-        I HAS A C ITZ "PAPER"
-      NO WAI
-        I HAS A C ITZ "SCISSORS"
-  OIC
-
-  VISIBLE "COMPUTER CHOOZEZ: " C
-
-  BOTH SAEM P AN C
+  BOTH SAEM PONE AN PTWO
   O RLY?
     YA RLY
       VISIBLE "ITZ A TIE!"
     NO WAI
-      # PLAYER chooses ROCK
-      BOTH SAEM P AN "ROCK"
+
+      BOTH SAEM PONE AN "ROCK"
       O RLY?
         YA RLY
-          BOTH SAEM C AN "SCISSORS"
+          BOTH SAEM PTWO AN "SCISSORS"
           O RLY?
             YA RLY
-              VISIBLE "PLAYER WINZ (ROCK BEATZ SCISSORS)!"
+              VISIBLE "PLAYER 1 WINZ (ROCK BEATZ SCISSORS)!"
             NO WAI
-              VISIBLE "COMPUTER WINZ!"
+              VISIBLE "PLAYER 2 WINZ!"
           OIC
 
         NO WAI
-          # PLAYER chooses PAPER
-          BOTH SAEM P AN "PAPER"
+          BOTH SAEM PONE AN "PAPER"
           O RLY?
             YA RLY
-              BOTH SAEM C AN "ROCK"
+              BOTH SAEM PTWO AN "ROCK"
               O RLY?
                 YA RLY
-                  VISIBLE "PLAYER WINZ (PAPER BEATZ ROCK)!"
+                  VISIBLE "PLAYER 1 WINZ (PAPER BEATZ ROCK)!"
                 NO WAI
-                  VISIBLE "COMPUTER WINZ!"
+                  VISIBLE "PLAYER 2 WINZ!"
               OIC
 
             NO WAI
-              # PLAYER chooses SCISSORS
-              BOTH SAEM P AN "SCISSORS"
+              BOTH SAEM PONE AN "SCISSORS"
               O RLY?
                 YA RLY
-                  BOTH SAEM C AN "PAPER"
+                  BOTH SAEM PTWO AN "PAPER"
                   O RLY?
                     YA RLY
-                      VISIBLE "PLAYER WINZ (SCISSORS BEATZ PAPER)!"
+                      VISIBLE "PLAYER 1 WINZ (SCISSORS BEATZ PAPER)!"
                     NO WAI
-                      VISIBLE "COMPUTER WINZ!"
+                      VISIBLE "PLAYER 2 WINZ!"
                   OIC
                 NO WAI
                   VISIBLE "BAD INPUTZ! USE ROCK/PAPER/SCISSORS."
               OIC
           OIC
+
       OIC
   OIC
 
